@@ -1,0 +1,1 @@
+I have created a myntra clone using html and css which is multi page application. I have created navbar,footer and a body page and created some cards with a user interface of title,description,price and add to cart button. created the navigation part for the header using anchor tags.
