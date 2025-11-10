@@ -1,0 +1,271 @@
+nav {
+
+    padding: 5px;
+    border: 3px solid black;
+    
+    border-radius: 10px;
+
+
+}
+/* 
+a {
+    padding-inline: 35px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+} */
+
+#off {
+    border: 3px solid black;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+#sale {
+    border: 3px solid black;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.specials {
+    background-color: rgb(107, 76, 76);
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 750px;
+}
+
+.woodeenself,.pottery,.sofaset,.longmirror,.lamp,.menstatue,.mirror,.smokingdog,.sofacumbed,.buddha{
+  
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 5px 5px 15px black;
+}
+.woodeenself h3,.pottery h3,.sofaset h3,.longmirror h3{
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(48, 122, 70);
+    border: 4px;
+    border-radius: 5px;
+    margin-left: 65px;
+  
+    color: black;
+    padding: 10px;
+
+}
+
+.wholediv {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap:30px;
+   
+    padding: 55PX;
+    border: 10px solid white;
+    border-radius: 8px;
+    
+    
+}
+.longmirror img,.pottery img,.sofaset img,.woodeenself img{
+ width: 250px;
+ height: 250px;
+ object-fit: cover;
+ border-radius: 10px;
+
+ 
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.anchor {
+     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 125px;
+}
+.anchor a{
+    color: black;
+    text-decoration: none;
+    margin-right: 85px;
+
+}
+.lamp img,.menstatue img,.mirror img,.smokingdog img,.sofacumbed img,.buddha img{
+  width: 250px;
+ height: 250px;
+ object-fit: cover;
+ border-radius: 10px;  
+
+}
+.wholediv_mens{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap:30px;
+   
+    padding: 55PX;
+    border: 10px solid white;
+    border-radius: 8px;
+}
+.checksshirt img,.polotshirt img,.jacket img,.momfitjeans img,.sneakers img,.chealseaboots img,.watch img,.belt img,.chain img,.ring img{
+   
+ width: 250px;
+ height: 250px;
+ object-fit: cover;
+ border-radius: 10px;
+    
+}
+.checksshirt,.polotshirt,.jacket,.momfitjeans,.sneakers,.chealseaboots,.watch,.belt,.chain,.ring{
+
+    
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 5px 15px black;
+
+
+    
+
+}
+.wholediv_kids{
+    display: flex;
+    flex-wrap: wrap;
+    padding:55px;
+    border: 3px solid white;
+    justify-content: space-between;
+    
+
+
+
+
+
+}
+.unicorn img,.babycarekit img,.towel img,.shoes img,.boyscloathing img,.girlcloathing img,.kidswatch img,.kidscap img,.girlsclip img,.kidssleepwaer img{
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+
+
+}
+.unicorn,.babycarekit,.towel,.shoes,.boyscloathing,.girlcloathing,.kidswatch,.kidscap,.girlsclip,.kidssleepwaer{
+    box-shadow: 5px 5px 15px black;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 17px;
+
+}
+.wholediv_footer{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+.expirence img, .return img{
+    height: 225px;
+    width: 355px;
+}
+.orignal{
+    display: flex;
+    flex-direction:column;
+}
+
+.orignal img{
+    height:100px;
+    width: 100px;
+    margin-bottom: 15px;
+    
+}
+.copyright{
+    text-align: center;
+    font-size:x-large;
+    font-weight: 600;
+}
+.wholediv_womens{
+    padding: 85px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.blacktop img,.cordset img,.womens_sneakers img,.purse img,.westernwear img,.heels img,.gymfit img,.jeans img,.tshirt img,.womens_watch img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+.blacktop,.cordset,.womens_sneakers,.purse,.westernwear,.heels,.gymfit,.jeans,.tshirt,.womens_watch{
+    padding:27px;
+  
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px black;
+
+}
+.wholediv_beauty{
+   
+    border-radius: 10px;
+    padding:55px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.blush,.renee,.serum,.lipbalm,.lipstick,.blusher,.brush,.palette,.mostuiriser,.eyeliner{
+    padding:27px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px black;
+
+}
+.blush img,.renee img,.serum img,.lipbalm img,.lipstick img,.blusher img,.brush img,.palette img,.mostuiriser img,.eyeliner img{
+     height: 250px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+.ethenic img,.casual img,.gymwearmens img,.gymwearwomen img,.western img,.sportswear img,.loungwear img,.catagorywatches img,.grooming img,.kidswear img{
+    height: 200px;
+    width: 200px;
+}
+.cards{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap:30px;
+   
+    padding: 55PX;
+    border: 10px solid white;
+    border-radius: 8px;
+    
+}
+.ethenic,.casual,.gymwearmens,.gymwearwomen,.western,.sportswear,.loungwear,.catagorywatches,.grooming,.kidswear{
+      padding:30px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(134, 68, 68);
+
+
+}
+h2{
+    text-align: center;
+}
